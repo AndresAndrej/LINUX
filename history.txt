@@ -1,0 +1,56 @@
+   0 140 cd /home
+   1 141 mkdir user1
+   2 cd /home
+   3 mkdir user1
+   4 mkdir/user1
+   5 mkdir /user1
+   6 ls
+   7 cd
+   8 cd /user1
+   9 mkdir /task1
+  10 cd /task1
+  11 touch /file1.txt
+  12 pwd
+  13 ls -l
+  14 ls -a
+  15 ls -l
+  16 clear
+  17 tree
+  18 tree /home/
+  19 date
+  20 history
+  21 mkdir -p /home/user2/task2/
+  22 touch /home/user2/task2/file2.txt
+  23 mkdir -p /home/user3/task3/
+  24 mkdir /home/user2/task2/
+  25 ls -la /home/user2/task2/file2.txt 
+  26 pwd
+  27 cd /home
+  28 ls user1
+  29 mkdir -p user3/task3
+  30 mkdir -p /home/user4/task4
+  31 touch /home/user4/task4/file4.txt
+  32 ls -a
+  33 ls /home/
+  34 ls /home/user1/task1/file1.txt
+  35 ls /home/user2/task2/file2.txt 
+  36 ls /home/user3/task3/file3.txt
+  37 ls /home/user4/task4/file4.txt 
+  38 history
+  39 cp /home/user2/task2/file2.txt /tmp
+  40 ls /tmp/file2.txt 
+  41 cp /home/user3/task3/file3.txt /tmp
+  42 cp /home/user2/task2/file2.txt /tmp/newfile
+  43 ls /tmp/newfile
+  44 mv /tmp/newfile /opt
+  45 cp /home/user2/tmp/newfile
+  46 cp -r /home/user2/tmp/newfile
+  47 cp /home/user2 /tmp
+  48 cp -R /home/user2/tmp
+  49 ls /tmp/
+  50 mv /opt/newfile.txt
+  51 mv /opt/newfile.txt /tmp/new_text
+  52 rm /tmp/file2.txt 
+  53 ls /tmp
+  54 history
+  55 history > /tmp/history.txt
